@@ -10,6 +10,11 @@
 This is a template repository. Follow the following steps to get started
 
 - Use the button at the top to create your own repository based on this one.
+- In your teminal
+  -  clone the project locally: `git clone projectaddress`
+  -  go into the project: `cd projectname`
+  -  install dependencies `yarn`
+  -  start project in watch mode: `yarn start`
 - Go to `/src/config.ts` and adust to your needs
 - A very small list of components is available in `/src/components`
 
