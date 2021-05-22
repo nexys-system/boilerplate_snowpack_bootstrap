@@ -1,4 +1,4 @@
-name: Test Package
+name: Deploy
 
 on:
   # Trigger the workflow on push or pull request,
@@ -8,7 +8,7 @@ on:
       - master
 
 jobs:
-  test:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
