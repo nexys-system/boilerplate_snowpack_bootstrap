@@ -16,4 +16,13 @@ This is a template repository. Follow the following steps to get started
 ## Notes
 
 - CI/CD is integrated with Github actions, make sure you change the badge reference in the readme so it points to your pipeline
+- Deployment will fail if you don't provide a deployment key and the associated private key, see below
 - Minimal set of dependencies
+
+
+## Deploy to GH-Page
+
+In order for the project to deploy to GH-page automatically via Github actions, it is necessary for you to follow the next steps:
+* In your terminal, generate a keypair: `ssh-keygen` (input a random name, say `mykey`) and press enter until process is completed
+* In Github, go to `Settings` and then `Deploy Keys`. Paste `mykey.pub` and tick `Allow write access`  (the name is not important)
+* In Github, go to `Settings` `Secrets`, `New repository Secret`. Paste `mykey` (the name is not important)
