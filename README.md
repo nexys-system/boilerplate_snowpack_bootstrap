@@ -23,6 +23,7 @@ This is a template repository. Follow the following steps to get started
 - CI/CD is integrated with Github actions, make sure you change the badge reference in the readme so it points to your pipeline
 - Deployment will fail if you don't provide a deployment key and the associated private key, see below
 - Minimal set of dependencies
+- The repository comes with an MIT license, make sure you adjust this based on your needs
 
 
 ## Deploy to GH-Page
