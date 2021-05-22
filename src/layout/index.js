@@ -13,10 +13,5 @@ function Layout({children}) {
   }, /* @__PURE__ */ React.createElement("div", {
     className: "container"
   }, children, " ")), /* @__PURE__ */ React.createElement(Footer, null)));
-  return /* @__PURE__ */ React.createElement(Router, {
-    basename
-  }, /* @__PURE__ */ React.createElement(Header, null), /* @__PURE__ */ React.createElement("div", {
-    className: "container"
-  }, children), /* @__PURE__ */ React.createElement(Footer, null));
 }
 export default Layout;
