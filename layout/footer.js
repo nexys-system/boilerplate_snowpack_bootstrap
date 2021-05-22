@@ -1,4 +1,4 @@
-import React from "../../_snowpack/pkg/react.js";
+import React from "../_snowpack/pkg/react.js";
 import {github, sha} from "../config.js";
 export default () => /* @__PURE__ */ React.createElement("footer", null, /* @__PURE__ */ React.createElement("div", {
   className: "container"

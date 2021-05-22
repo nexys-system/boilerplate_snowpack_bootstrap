@@ -1,7 +1,7 @@
-import React from "../../_snowpack/pkg/react.js";
+import React from "../_snowpack/pkg/react.js";
 import Footer from "./footer.js";
 import Header from "./header.js";
-import {BrowserRouter as Router} from "../../_snowpack/pkg/react-router-dom.js";
+import {BrowserRouter as Router} from "../_snowpack/pkg/react-router-dom.js";
 import {basename} from "../config.js";
 function Layout({children}) {
   return /* @__PURE__ */ React.createElement(Router, {

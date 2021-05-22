@@ -1,5 +1,5 @@
-import React from "../../_snowpack/pkg/react.js";
-import {Link} from "../../_snowpack/pkg/react-router-dom.js";
+import React from "../_snowpack/pkg/react.js";
+import {Link} from "../_snowpack/pkg/react-router-dom.js";
 import {menus} from "../links.js";
 import {title} from "../config.js";
 const style = {

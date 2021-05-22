@@ -1,4 +1,4 @@
-import * as __SNOWPACK_ENV__ from '../_snowpack/env.js';
+import * as __SNOWPACK_ENV__ from './_snowpack/env.js';
 
 export const sha = __SNOWPACK_ENV__.SNOWPACK_PUBLIC_GIT_SHA || "arandomsha";
 export const title = __SNOWPACK_ENV__.SNOWPACK_PUBLIC_TITLE || "Boilerplate";

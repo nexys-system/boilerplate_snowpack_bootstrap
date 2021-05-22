@@ -1,4 +1,4 @@
-import React from "../../../_snowpack/pkg/react.js";
+import React from "../../_snowpack/pkg/react.js";
 export const Wrapper = ({
   label,
   children

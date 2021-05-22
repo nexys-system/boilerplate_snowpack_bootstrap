@@ -1,4 +1,4 @@
-import React from "../../../../_snowpack/pkg/react.js";
+import React from "../../../_snowpack/pkg/react.js";
 const getValue = (v) => {
   if (v === "" || v === void 0) {
     return void 0;

@@ -1,4 +1,4 @@
-import React from "../../_snowpack/pkg/react.js";
+import React from "../_snowpack/pkg/react.js";
 const Nav = (navs) => ({
   option,
   onClick
