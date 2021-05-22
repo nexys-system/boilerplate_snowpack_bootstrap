@@ -13,3 +13,4 @@ This is a template repository. Follow the following steps to get started
 ## Notes
 
 * CI/CD is integrated with Github actions, make sure you change the badge reference in the readme so it points to your pipeline
+* Minimal set of dependencies
