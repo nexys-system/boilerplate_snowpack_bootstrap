@@ -20,13 +20,5 @@ function Layout({ children }: { children: any }) {
       </div>
     </Router>
   );
-  return (
-    <Router basename={basename}>
-      <Header />
-
-      <div className="container">{children}</div>
-      <Footer />
-    </Router>
-  );
 }
 export default Layout;
