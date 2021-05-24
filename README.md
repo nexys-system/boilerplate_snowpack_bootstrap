@@ -16,7 +16,7 @@ This is a template repository. Follow the following steps to get started
   -  install dependencies `yarn`
   -  start project in watch mode: `yarn start`
 - Go to `/src/config.ts` and adust to your needs
-- A very small list of components is available in `/src/components`
+- A set of essential components is available at https://github.com/nexys-system/react-bootstrap-components and can be installed with `yarn add @nexys/react-bootstrap`
 
 ## Notes
 
