@@ -12,13 +12,3 @@ export default () => (
     </div>
   </footer>
 );
-
-/*
-export default () => (
-  <div className="container">
-    <center>
-      <Sha />
-    </center>
-  </div>
-);
-*/
