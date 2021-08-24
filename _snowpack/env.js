@@ -1,4 +1,4 @@
-export const SNOWPACK_PUBLIC_GIT_SHA = "74ba25b788825fd897b828cc11bc77aaf3f20cde";
+export const SNOWPACK_PUBLIC_GIT_SHA = "93769f3b8481b52063b8a6ca287f6d57c38be029";
 export const SNOWPACK_PUBLIC_URL = "/boilerplate_snowpack_bootstrap";
 export const MODE = "development";
 export const NODE_ENV = "development";
