@@ -1,6 +1,8 @@
 // Snowpack Configuration File
 // See all supported options: https://www.snowpack.dev/reference/configuration
 
+const proxy = require("http2-proxy");
+
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
   mount: {
@@ -20,5 +22,20 @@ module.exports = {
   buildOptions: {
     /* ... */
   },
-  routes: [{ match: "routes", src: ".*", dest: "/index.html" }],
+  routes: [
+    {
+      src: "/api/.*",
+      dest: (req, res) => {
+        // remove /api prefix (optional)
+        req.url = req.url.replace(/^\/api/, "");
+
+        return proxy.web(req, res, {
+          hostname: "localhost",
+          protocol: "http",
+          port: 3000,
+        });
+      },
+    },
+    { match: "routes", src: ".*", dest: "/index.html" },
+  ],
 };
