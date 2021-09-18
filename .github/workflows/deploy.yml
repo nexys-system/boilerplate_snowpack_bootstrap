@@ -1,11 +1,9 @@
 name: Deploy
 
 on:
-  # Trigger the workflow on push or pull request,
-  # but only for the master branch
   push:
-    branches:
-      - master
+    tags:
+      - v*
 
 jobs:
   deploy:
@@ -18,7 +16,7 @@ jobs:
       - run: yarn
       - run: yarn test
       - name: Build page
-        run: SNOWPACK_PUBLIC_GIT_SHA=$GITHUB_SHA SNOWPACK_PUBLIC_URL=/boilerplate_snowpack_bootstrap yarn build
+        run: SNOWPACK_PUBLIC_GIT_SHA=$GITHUB_SHA SNOWPACK_PUBLIC_VERSION=${GITHUB_REF##*/} SNOWPACK_PUBLIC_URL=/boilerplate_snowpack_bootstrap yarn build
       - name: add 404
         run: cp build/index.html build/404.html
       - name: Deploy to gh-pages
