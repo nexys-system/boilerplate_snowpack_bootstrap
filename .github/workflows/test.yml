@@ -15,6 +15,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 14
+      - run: echo $GITHUB_REPOSITORY
       - run: yarn
       - run: yarn test
       - name: Build
