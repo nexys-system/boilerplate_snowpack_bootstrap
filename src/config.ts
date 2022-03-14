@@ -5,4 +5,4 @@ export const basename = import.meta.env.SNOWPACK_PUBLIC_URL;
 
 const ghUrl = "https://github.com/nexys-system/boilerplate_snowpack_bootstrap";
 
-export const github = { sha: `${ghUrl}/commit/${sha}`, url: ghUrl };
+export const github = { sha: `${ghUrl}/commit/${sha}`, version: `${ghUrl}/release/tag/${version}`, url: ghUrl };
