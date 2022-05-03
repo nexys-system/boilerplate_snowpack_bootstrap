@@ -1,6 +1,6 @@
 # DEPRECATED
 
-Since Snowpack is officially deprecated, please migrate to [boilerplate_vite](https://github.com/nexys-system/boilerplate_vite/settings)
+Since Snowpack is officially deprecated, please migrate to [boilerplate_vite](https://github.com/nexys-system/boilerplate_vite)
 
 ![deprecated_notice](./snowpack_deprecated.png)
 
