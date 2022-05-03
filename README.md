@@ -1,3 +1,9 @@
+# DEPRECATED
+
+Since Snowpack is officially deprecated, please migrate to [boilerplate_vite](https://github.com/nexys-system/boilerplate_vite/settings)
+
+![deprecated_notice](./snowpack_deprecated.png)
+
 # Snowpack React Typescript Boilerplate with Bootstrap
 
 [![Test](https://github.com/nexys-system/boilerplate_snowpack_bootstrap/actions/workflows/test.yml/badge.svg)](https://github.com/nexys-system/boilerplate_snowpack_bootstrap/actions/workflows/test.yml)
